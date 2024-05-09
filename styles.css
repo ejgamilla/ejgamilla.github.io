@@ -1,63 +1,40 @@
-/* Reset default browser styles */
-body,
-h1,
-h2,
-h3,
-p,
-ul,
-li {
-    margin: 0;
-    padding: 0;
-}
-
-/* Set global styles */
+/* General styles */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
+header, nav, main, footer {
+  margin: 20px;
 }
 
-header {
-    background-color: #007bff;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+h1 {
+  color: #333;
 }
 
-section {
-    margin-bottom: 30px;
+nav ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-h2 {
-    color: #007bff;
+nav ul li {
+  display: inline;
+  margin-right: 10px;
 }
 
+/* Project section styles */
 .project {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
+.project h3 {
+  margin-bottom: 5px;
+}
+
+/* Footer styles */
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-/* Styles for links */
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
+  margin-top: 50px;
+  text-align: center;
+  color: #666;
 }
